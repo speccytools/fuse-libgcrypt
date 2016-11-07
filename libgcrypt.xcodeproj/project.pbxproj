@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B61D2B080A59ED5F0008B6CC /* ac.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000164122C0 /* ac.c */; };
+		B61D2B090A59ED5F0008B6CC /* blowfish.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003D9230 /* blowfish.c */; };
+		B61D2B0A0A59ED5F0008B6CC /* cipher.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003CC890 /* cipher.c */; };
+		B61D2B0B0A59ED5F0008B6CC /* dsa.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016430A90 /* dsa.c */; };
+		B61D2B0C0A59ED5F0008B6CC /* md.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003D2F10 /* md.c */; };
+		B61D2B0D0A59ED5F0008B6CC /* primegen.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003C5690 /* primegen.c */; };
+		B61D2B0E0A59ED5F0008B6CC /* pubkey.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003C4960 /* pubkey.c */; };
+		B61D2B0F0A59ED5F0008B6CC /* random.c in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000001642DE40 /* random.c */; };
+		B61D2B100A59ED5F0008B6CC /* rfc2268.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000390380 /* rfc2268.c */; };
+		B61D2B110A59ED5F0008B6CC /* rmd160.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000000316CA0 /* rmd160.c */; };
+		B61D2B120A59ED5F0008B6CC /* rndlinux.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003CDBA0 /* rndlinux.c */; };
+		B61D2B130A59ED5F0008B6CC /* sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003EAE50 /* sha1.c */; };
+		B61D2B140A59ED5F0008B6CC /* mpi-add.c in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000001640FFF0 /* mpi-add.c */; };
+		B61D2B150A59ED5F0008B6CC /* mpi-bit.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003C8BA0 /* mpi-bit.c */; };
+		B61D2B160A59ED5F0008B6CC /* mpi-cmp.c in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000039DCB0 /* mpi-cmp.c */; };
+		B61D2B170A59ED5F0008B6CC /* mpi-div.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003D61C0 /* mpi-div.c */; };
+		B61D2B180A59ED5F0008B6CC /* mpi-gcd.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003BEE70 /* mpi-gcd.c */; };
+		B61D2B190A59ED5F0008B6CC /* mpi-inline.c in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000038D770 /* mpi-inline.c */; };
+		B61D2B1A0A59ED5F0008B6CC /* mpi-inv.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016430580 /* mpi-inv.c */; };
+		B61D2B1B0A59ED5F0008B6CC /* mpi-mpow.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003B3720 /* mpi-mpow.c */; };
+		B61D2B1C0A59ED5F0008B6CC /* mpi-mul.c in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000000037F870 /* mpi-mul.c */; };
+		B61D2B1D0A59ED5F0008B6CC /* mpi-pow.c in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000001640F0A0 /* mpi-pow.c */; };
+		B61D2B1E0A59ED5F0008B6CC /* mpi-scan.c in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000001640ECC0 /* mpi-scan.c */; };
+		B61D2B1F0A59ED5F0008B6CC /* mpicoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016412260 /* mpicoder.c */; };
+		B61D2B200A59ED5F0008B6CC /* mpih-add1.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016411DC0 /* mpih-add1.c */; };
+		B61D2B210A59ED5F0008B6CC /* mpih-div.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016415130 /* mpih-div.c */; };
+		B61D2B220A59ED5F0008B6CC /* mpih-lshift.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016409E70 /* mpih-lshift.c */; };
+		B61D2B230A59ED5F0008B6CC /* mpih-mul.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003C2350 /* mpih-mul.c */; };
+		B61D2B240A59ED5F0008B6CC /* mpih-mul1.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016413040 /* mpih-mul1.c */; };
+		B61D2B250A59ED5F0008B6CC /* mpih-mul2.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016413F00 /* mpih-mul2.c */; };
+		B61D2B260A59ED5F0008B6CC /* mpih-mul3.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000164148A0 /* mpih-mul3.c */; };
+		B61D2B270A59ED5F0008B6CC /* mpih-rshift.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016415BE0 /* mpih-rshift.c */; };
+		B61D2B280A59ED5F0008B6CC /* mpih-sub1.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000164163E0 /* mpih-sub1.c */; };
+		B61D2B290A59ED5F0008B6CC /* mpiutil.c in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000001642D950 /* mpiutil.c */; };
+		B61D2B2A0A59ED5F0008B6CC /* ath.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016412860 /* ath.c */; };
+		B61D2B2B0A59ED5F0008B6CC /* global.c in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000001640F900 /* global.c */; };
+		B61D2B2C0A59ED5F0008B6CC /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016417330 /* misc.c */; };
+		B61D2B2D0A59ED5F0008B6CC /* missing-string.c in Sources */ = {isa = PBXBuildFile; fileRef = 00000000000000001640AC60 /* missing-string.c */; };
+		B61D2B2E0A59ED5F0008B6CC /* module.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016430DB0 /* module.c */; };
+		B61D2B2F0A59ED5F0008B6CC /* secmem.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003BFA80 /* secmem.c */; };
+		B61D2B300A59ED5F0008B6CC /* sexp.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000003D7750 /* sexp.c */; };
+		B61D2B310A59ED5F0008B6CC /* stdmem.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016410AD0 /* stdmem.c */; };
+		B61D2B320A59ED5F0008B6CC /* code-from-errno.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016411F70 /* code-from-errno.c */; };
+		B61D2B330A59ED5F0008B6CC /* code-to-errno.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000164119F0 /* code-to-errno.c */; };
+		B61D2B340A59ED5F0008B6CC /* strerror.c in Sources */ = {isa = PBXBuildFile; fileRef = 0000000000000000164110C0 /* strerror.c */; };
+		B61D2B350A59ED5F0008B6CC /* strsource.c in Sources */ = {isa = PBXBuildFile; fileRef = 000000000000000016412400 /* strsource.c */; };
+		B61D2B4E0A59EF060008B6CC /* gpg-error.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000000000016419450 /* gpg-error.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61D2B510A59EF1E0008B6CC /* gcrypt-module.h in Headers */ = {isa = PBXBuildFile; fileRef = 0000000000000000164179E0 /* gcrypt-module.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61D2B540A59EF240008B6CC /* gcrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 000000000000000016417B60 /* gcrypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000000000000000000316CA0 /* rmd160.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = rmd160.c; sourceTree = "<group>"; };
+		00000000000000000037F870 /* mpi-mul.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "mpi-mul.c"; sourceTree = "<group>"; };
+		00000000000000000038D770 /* mpi-inline.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "mpi-inline.c"; sourceTree = "<group>"; };
+		000000000000000000390380 /* rfc2268.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = rfc2268.c; sourceTree = "<group>"; };
+		00000000000000000039DCB0 /* mpi-cmp.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "mpi-cmp.c"; sourceTree = "<group>"; };
+		0000000000000000003B3720 /* mpi-mpow.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "mpi-mpow.c"; sourceTree = "<group>"; };
+		0000000000000000003BEE70 /* mpi-gcd.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "mpi-gcd.c"; sourceTree = "<group>"; };
+		0000000000000000003BFA80 /* secmem.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = secmem.c; sourceTree = "<group>"; };
+		0000000000000000003C2350 /* mpih-mul.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "mpih-mul.c"; sourceTree = "<group>"; };
+		0000000000000000003C4960 /* pubkey.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = pubkey.c; sourceTree = "<group>"; };
+		0000000000000000003C5690 /* primegen.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = primegen.c; sourceTree = "<group>"; };
+		0000000000000000003C6F00 /* gettext.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = gettext.h; sourceTree = "<group>"; };
+		0000000000000000003C8BA0 /* mpi-bit.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "mpi-bit.c"; sourceTree = "<group>"; };
+		0000000000000000003C8DD0 /* random.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = random.h; sourceTree = "<group>"; };
+		0000000000000000003CC890 /* cipher.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = cipher.c; sourceTree = "<group>"; };
+		0000000000000000003CDBA0 /* rndlinux.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = rndlinux.c; sourceTree = "<group>"; };
+		0000000000000000003D2F10 /* md.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = md.c; sourceTree = "<group>"; };
+		0000000000000000003D61C0 /* mpi-div.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "mpi-div.c"; sourceTree = "<group>"; };
+		0000000000000000003D7750 /* sexp.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = sexp.c; sourceTree = "<group>"; };
+		0000000000000000003D9230 /* blowfish.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = blowfish.c; sourceTree = "<group>"; };
+		0000000000000000003EAE50 /* sha1.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = sha1.c; sourceTree = "<group>"; };
+		000000000000000016409E70 /* mpih-lshift.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "mpih-lshift.c"; sourceTree = "<group>"; };
+		00000000000000001640AC60 /* missing-string.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "missing-string.c"; sourceTree = "<group>"; };
+		00000000000000001640B2B0 /* mpi-inline.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "mpi-inline.h"; sourceTree = "<group>"; };
+		00000000000000001640B3F0 /* mpi-internal.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "mpi-internal.h"; sourceTree = "<group>"; };
+		00000000000000001640E160 /* asm-syntax.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "asm-syntax.h"; sourceTree = "<group>"; };
+		00000000000000001640E690 /* strerror-sym.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "strerror-sym.c"; sourceTree = "<group>"; };
+		00000000000000001640E800 /* mkerrcodes.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = mkerrcodes.c; sourceTree = "<group>"; };
+		00000000000000001640E950 /* bithelp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = bithelp.h; sourceTree = "<group>"; };
+		00000000000000001640EAB0 /* rand-internal.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "rand-internal.h"; sourceTree = "<group>"; };
+		00000000000000001640ECC0 /* mpi-scan.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "mpi-scan.c"; sourceTree = "<group>"; };
+		00000000000000001640F0A0 /* mpi-pow.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "mpi-pow.c"; sourceTree = "<group>"; };
+		00000000000000001640F900 /* global.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = global.c; sourceTree = "<group>"; };
+		00000000000000001640FFF0 /* mpi-add.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "mpi-add.c"; sourceTree = "<group>"; };
+		0000000000000000164101A0 /* t-strerror.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "t-strerror.c"; sourceTree = "<group>"; };
+		000000000000000016410250 /* ath.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = ath.h; sourceTree = "<group>"; };
+		000000000000000016410910 /* stdmem.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = stdmem.h; sourceTree = "<group>"; };
+		000000000000000016410AD0 /* stdmem.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = stdmem.c; sourceTree = "<group>"; };
+		0000000000000000164110C0 /* strerror.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = strerror.c; sourceTree = "<group>"; };
+		000000000000000016411620 /* longlong.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = longlong.h; sourceTree = "<group>"; };
+		0000000000000000164119F0 /* code-to-errno.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "code-to-errno.c"; sourceTree = "<group>"; };
+		000000000000000016411B60 /* sysdep.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = sysdep.h; sourceTree = "<group>"; };
+		000000000000000016411DC0 /* mpih-add1.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "mpih-add1.c"; sourceTree = "<group>"; };
+		000000000000000016411F10 /* gpg-error.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "gpg-error.c"; sourceTree = "<group>"; };
+		000000000000000016411F70 /* code-from-errno.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "code-from-errno.c"; sourceTree = "<group>"; };
+		000000000000000016412260 /* mpicoder.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = mpicoder.c; sourceTree = "<group>"; };
+		0000000000000000164122C0 /* ac.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ac.c; sourceTree = "<group>"; };
+		000000000000000016412400 /* strsource.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = strsource.c; sourceTree = "<group>"; };
+		0000000000000000164124C0 /* rmd.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = rmd.h; sourceTree = "<group>"; };
+		000000000000000016412860 /* ath.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = ath.c; sourceTree = "<group>"; };
+		000000000000000016413040 /* mpih-mul1.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "mpih-mul1.c"; sourceTree = "<group>"; };
+		000000000000000016413F00 /* mpih-mul2.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "mpih-mul2.c"; sourceTree = "<group>"; };
+		0000000000000000164148A0 /* mpih-mul3.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "mpih-mul3.c"; sourceTree = "<group>"; };
+		000000000000000016415130 /* mpih-div.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "mpih-div.c"; sourceTree = "<group>"; };
+		000000000000000016415BE0 /* mpih-rshift.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "mpih-rshift.c"; sourceTree = "<group>"; };
+		000000000000000016415EE0 /* strsource-sym.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "strsource-sym.c"; sourceTree = "<group>"; };
+		0000000000000000164163E0 /* mpih-sub1.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "mpih-sub1.c"; sourceTree = "<group>"; };
+		0000000000000000164169D0 /* mpi-asm-defs.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "mpi-asm-defs.h"; sourceTree = "<group>"; };
+		000000000000000016417330 /* misc.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = misc.c; sourceTree = "<group>"; };
+		000000000000000016417880 /* cipher.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = cipher.h; sourceTree = "<group>"; };
+		0000000000000000164178F0 /* g10lib.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = g10lib.h; sourceTree = "<group>"; };
+		0000000000000000164179E0 /* gcrypt-module.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "gcrypt-module.h"; sourceTree = "<group>"; };
+		000000000000000016417B60 /* gcrypt.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = gcrypt.h; sourceTree = "<group>"; };
+		000000000000000016417FE0 /* mpi.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = mpi.h; sourceTree = "<group>"; };
+		000000000000000016418190 /* secmem.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = secmem.h; sourceTree = "<group>"; };
+		0000000000000000164182D0 /* types.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		000000000000000016418A90 /* code-from-errno.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "code-from-errno.h"; sourceTree = "<group>"; };
+		000000000000000016418BF0 /* code-to-errno.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "code-to-errno.h"; sourceTree = "<group>"; };
+		000000000000000016418E30 /* err-codes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "err-codes.h"; sourceTree = "<group>"; };
+		000000000000000016418F50 /* err-sources-sym.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "err-sources-sym.h"; sourceTree = "<group>"; };
+		000000000000000016419050 /* err-sources.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "err-sources.h"; sourceTree = "<group>"; };
+		000000000000000016419200 /* errnos-sym.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "errnos-sym.h"; sourceTree = "<group>"; };
+		000000000000000016419450 /* gpg-error.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = "gpg-error.h"; sourceTree = "<group>"; };
+		0000000000000000164196F0 /* mkerrcodes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = mkerrcodes.h; sourceTree = "<group>"; };
+		00000000000000001642D950 /* mpiutil.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = mpiutil.c; sourceTree = "<group>"; };
+		00000000000000001642DE40 /* random.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = random.c; sourceTree = "<group>"; };
+		000000000000000016430580 /* mpi-inv.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = "mpi-inv.c"; sourceTree = "<group>"; };
+		000000000000000016430A90 /* dsa.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = dsa.c; sourceTree = "<group>"; };
+		000000000000000016430DB0 /* module.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = module.c; sourceTree = "<group>"; };
+		B61D2B3C0A59ED5F0008B6CC /* Info-gcrypt.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-gcrypt.plist"; sourceTree = "<group>"; };
+		B61D2B3D0A59ED5F0008B6CC /* gcrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = gcrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B69AFF390A5BFD0F00EEA5ED /* config.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B61D2B360A59ED5F0008B6CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0000000000000000003B13D0 /* cipher */ = {
+			isa = PBXGroup;
+			children = (
+				0000000000000000164122C0 /* ac.c */,
+				00000000000000001640E950 /* bithelp.h */,
+				0000000000000000003D9230 /* blowfish.c */,
+				0000000000000000003CC890 /* cipher.c */,
+				000000000000000016430A90 /* dsa.c */,
+				0000000000000000003D2F10 /* md.c */,
+				0000000000000000003C5690 /* primegen.c */,
+				0000000000000000003C4960 /* pubkey.c */,
+				00000000000000001640EAB0 /* rand-internal.h */,
+				00000000000000001642DE40 /* random.c */,
+				0000000000000000003C8DD0 /* random.h */,
+				000000000000000000390380 /* rfc2268.c */,
+				0000000000000000164124C0 /* rmd.h */,
+				000000000000000000316CA0 /* rmd160.c */,
+				0000000000000000003CDBA0 /* rndlinux.c */,
+				0000000000000000003EAE50 /* sha1.c */,
+			);
+			path = cipher;
+			sourceTree = "<group>";
+		};
+		0000000000000000003D53C0 /* trunk */ = {
+			isa = PBXGroup;
+			children = (
+				B69AFF390A5BFD0F00EEA5ED /* config.h */,
+				0000000000000000003DC440 /* libgcrypt */,
+				000000000000000016410B00 /* libgpg-error */,
+			);
+			name = trunk;
+			path = .;
+			sourceTree = SOURCE_ROOT;
+		};
+		0000000000000000003DC440 /* libgcrypt */ = {
+			isa = PBXGroup;
+			children = (
+				0000000000000000003B13D0 /* cipher */,
+				0000000000000000003FD700 /* mpi */,
+				000000000000000016424510 /* src */,
+			);
+			path = libgcrypt;
+			sourceTree = "<group>";
+		};
+		0000000000000000003FD700 /* mpi */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000001640E160 /* asm-syntax.h */,
+				000000000000000016411620 /* longlong.h */,
+				00000000000000001640FFF0 /* mpi-add.c */,
+				0000000000000000164169D0 /* mpi-asm-defs.h */,
+				0000000000000000003C8BA0 /* mpi-bit.c */,
+				00000000000000000039DCB0 /* mpi-cmp.c */,
+				0000000000000000003D61C0 /* mpi-div.c */,
+				0000000000000000003BEE70 /* mpi-gcd.c */,
+				00000000000000000038D770 /* mpi-inline.c */,
+				00000000000000001640B2B0 /* mpi-inline.h */,
+				00000000000000001640B3F0 /* mpi-internal.h */,
+				000000000000000016430580 /* mpi-inv.c */,
+				0000000000000000003B3720 /* mpi-mpow.c */,
+				00000000000000000037F870 /* mpi-mul.c */,
+				00000000000000001640F0A0 /* mpi-pow.c */,
+				00000000000000001640ECC0 /* mpi-scan.c */,
+				000000000000000016412260 /* mpicoder.c */,
+				000000000000000016411DC0 /* mpih-add1.c */,
+				000000000000000016415130 /* mpih-div.c */,
+				000000000000000016409E70 /* mpih-lshift.c */,
+				0000000000000000003C2350 /* mpih-mul.c */,
+				000000000000000016413040 /* mpih-mul1.c */,
+				000000000000000016413F00 /* mpih-mul2.c */,
+				0000000000000000164148A0 /* mpih-mul3.c */,
+				000000000000000016415BE0 /* mpih-rshift.c */,
+				0000000000000000164163E0 /* mpih-sub1.c */,
+				00000000000000001642D950 /* mpiutil.c */,
+				000000000000000016411B60 /* sysdep.h */,
+			);
+			path = mpi;
+			sourceTree = "<group>";
+		};
+		00000000000000001640EF20 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000016411F70 /* code-from-errno.c */,
+				000000000000000016418A90 /* code-from-errno.h */,
+				0000000000000000164119F0 /* code-to-errno.c */,
+				000000000000000016418BF0 /* code-to-errno.h */,
+				000000000000000016418E30 /* err-codes.h */,
+				000000000000000016418F50 /* err-sources-sym.h */,
+				000000000000000016419050 /* err-sources.h */,
+				000000000000000016419200 /* errnos-sym.h */,
+				0000000000000000003C6F00 /* gettext.h */,
+				000000000000000016411F10 /* gpg-error.c */,
+				000000000000000016419450 /* gpg-error.h */,
+				00000000000000001640E800 /* mkerrcodes.c */,
+				0000000000000000164196F0 /* mkerrcodes.h */,
+				00000000000000001640E690 /* strerror-sym.c */,
+				0000000000000000164110C0 /* strerror.c */,
+				000000000000000016415EE0 /* strsource-sym.c */,
+				000000000000000016412400 /* strsource.c */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		00000000000000001640F560 = {
+			isa = PBXGroup;
+			children = (
+				0000000000000000003D53C0 /* trunk */,
+				000000000000000016418C20 /* Products */,
+				B61D2B3C0A59ED5F0008B6CC /* Info-gcrypt.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		00000000000000001640F850 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				0000000000000000164101A0 /* t-strerror.c */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		000000000000000016410B00 /* libgpg-error */ = {
+			isa = PBXGroup;
+			children = (
+				00000000000000001640EF20 /* src */,
+				00000000000000001640F850 /* tests */,
+			);
+			path = "libgpg-error";
+			sourceTree = "<group>";
+		};
+		000000000000000016418C20 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B61D2B3D0A59ED5F0008B6CC /* gcrypt.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		000000000000000016424510 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				000000000000000016412860 /* ath.c */,
+				000000000000000016410250 /* ath.h */,
+				000000000000000016417880 /* cipher.h */,
+				0000000000000000164178F0 /* g10lib.h */,
+				0000000000000000164179E0 /* gcrypt-module.h */,
+				000000000000000016417B60 /* gcrypt.h */,
+				00000000000000001640F900 /* global.c */,
+				000000000000000016417330 /* misc.c */,
+				00000000000000001640AC60 /* missing-string.c */,
+				000000000000000016430DB0 /* module.c */,
+				000000000000000016417FE0 /* mpi.h */,
+				0000000000000000003BFA80 /* secmem.c */,
+				000000000000000016418190 /* secmem.h */,
+				0000000000000000003D7750 /* sexp.c */,
+				000000000000000016410AD0 /* stdmem.c */,
+				000000000000000016410910 /* stdmem.h */,
+				0000000000000000164182D0 /* types.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B61D2B050A59ED5F0008B6CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61D2B4E0A59EF060008B6CC /* gpg-error.h in Headers */,
+				B61D2B510A59EF1E0008B6CC /* gcrypt-module.h in Headers */,
+				B61D2B540A59EF240008B6CC /* gcrypt.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B61D2B040A59ED5F0008B6CC /* gcrypt Framework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B61D2B380A59ED5F0008B6CC /* Build configuration list for PBXNativeTarget "gcrypt Framework" */;
+			buildPhases = (
+				B61D2B050A59ED5F0008B6CC /* Headers */,
+				B61D2B060A59ED5F0008B6CC /* Resources */,
+				B61D2B070A59ED5F0008B6CC /* Sources */,
+				B61D2B360A59ED5F0008B6CC /* Frameworks */,
+				B61D2B370A59ED5F0008B6CC /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gcrypt Framework";
+			productInstallPath = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+			productName = gcrypt;
+			productReference = B61D2B3D0A59ED5F0008B6CC /* gcrypt.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00000000000000001640F4D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = B61D2B3F0A59ED600008B6CC /* Build configuration list for PBXProject "libgcrypt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 00000000000000001640F560;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B61D2B040A59ED5F0008B6CC /* gcrypt Framework */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B61D2B060A59ED5F0008B6CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		B61D2B370A59ED5F0008B6CC /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B61D2B070A59ED5F0008B6CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61D2B080A59ED5F0008B6CC /* ac.c in Sources */,
+				B61D2B090A59ED5F0008B6CC /* blowfish.c in Sources */,
+				B61D2B0A0A59ED5F0008B6CC /* cipher.c in Sources */,
+				B61D2B0B0A59ED5F0008B6CC /* dsa.c in Sources */,
+				B61D2B0C0A59ED5F0008B6CC /* md.c in Sources */,
+				B61D2B0D0A59ED5F0008B6CC /* primegen.c in Sources */,
+				B61D2B0E0A59ED5F0008B6CC /* pubkey.c in Sources */,
+				B61D2B0F0A59ED5F0008B6CC /* random.c in Sources */,
+				B61D2B100A59ED5F0008B6CC /* rfc2268.c in Sources */,
+				B61D2B110A59ED5F0008B6CC /* rmd160.c in Sources */,
+				B61D2B120A59ED5F0008B6CC /* rndlinux.c in Sources */,
+				B61D2B130A59ED5F0008B6CC /* sha1.c in Sources */,
+				B61D2B140A59ED5F0008B6CC /* mpi-add.c in Sources */,
+				B61D2B150A59ED5F0008B6CC /* mpi-bit.c in Sources */,
+				B61D2B160A59ED5F0008B6CC /* mpi-cmp.c in Sources */,
+				B61D2B170A59ED5F0008B6CC /* mpi-div.c in Sources */,
+				B61D2B180A59ED5F0008B6CC /* mpi-gcd.c in Sources */,
+				B61D2B190A59ED5F0008B6CC /* mpi-inline.c in Sources */,
+				B61D2B1A0A59ED5F0008B6CC /* mpi-inv.c in Sources */,
+				B61D2B1B0A59ED5F0008B6CC /* mpi-mpow.c in Sources */,
+				B61D2B1C0A59ED5F0008B6CC /* mpi-mul.c in Sources */,
+				B61D2B1D0A59ED5F0008B6CC /* mpi-pow.c in Sources */,
+				B61D2B1E0A59ED5F0008B6CC /* mpi-scan.c in Sources */,
+				B61D2B1F0A59ED5F0008B6CC /* mpicoder.c in Sources */,
+				B61D2B200A59ED5F0008B6CC /* mpih-add1.c in Sources */,
+				B61D2B210A59ED5F0008B6CC /* mpih-div.c in Sources */,
+				B61D2B220A59ED5F0008B6CC /* mpih-lshift.c in Sources */,
+				B61D2B230A59ED5F0008B6CC /* mpih-mul.c in Sources */,
+				B61D2B240A59ED5F0008B6CC /* mpih-mul1.c in Sources */,
+				B61D2B250A59ED5F0008B6CC /* mpih-mul2.c in Sources */,
+				B61D2B260A59ED5F0008B6CC /* mpih-mul3.c in Sources */,
+				B61D2B270A59ED5F0008B6CC /* mpih-rshift.c in Sources */,
+				B61D2B280A59ED5F0008B6CC /* mpih-sub1.c in Sources */,
+				B61D2B290A59ED5F0008B6CC /* mpiutil.c in Sources */,
+				B61D2B2A0A59ED5F0008B6CC /* ath.c in Sources */,
+				B61D2B2B0A59ED5F0008B6CC /* global.c in Sources */,
+				B61D2B2C0A59ED5F0008B6CC /* misc.c in Sources */,
+				B61D2B2D0A59ED5F0008B6CC /* missing-string.c in Sources */,
+				B61D2B2E0A59ED5F0008B6CC /* module.c in Sources */,
+				B61D2B2F0A59ED5F0008B6CC /* secmem.c in Sources */,
+				B61D2B300A59ED5F0008B6CC /* sexp.c in Sources */,
+				B61D2B310A59ED5F0008B6CC /* stdmem.c in Sources */,
+				B61D2B320A59ED5F0008B6CC /* code-from-errno.c in Sources */,
+				B61D2B330A59ED5F0008B6CC /* code-to-errno.c in Sources */,
+				B61D2B340A59ED5F0008B6CC /* strerror.c in Sources */,
+				B61D2B350A59ED5F0008B6CC /* strsource.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B61D2B390A59ED5F0008B6CC /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 13;
+				DYLIB_CURRENT_VERSION = 13.1;
+				FRAMEWORK_VERSION = 1.2.4;
+				GCC_C_LANGUAGE_STANDARD = gnu89;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					HAVE_CONFIG_H,
+					PIC,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"../trunk/libgpg-error",
+					../trunk/libgcrypt,
+					../trunk/libgcrypt/src,
+				);
+				INFOPLIST_FILE = "Info-gcrypt.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LIBTOOL_FLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRINCIPAL_CLASS = "";
+				PRODUCT_NAME = gcrypt;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wall";
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		B61D2B3A0A59ED5F0008B6CC /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DYLIB_COMPATIBILITY_VERSION = 13;
+				DYLIB_CURRENT_VERSION = 13.1;
+				FRAMEWORK_VERSION = 1.2.4;
+				GCC_C_LANGUAGE_STANDARD = gnu89;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					HAVE_CONFIG_H,
+					PIC,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"../trunk/libgpg-error",
+					../trunk/libgcrypt,
+					../trunk/libgcrypt/src,
+				);
+				INFOPLIST_FILE = "Info-gcrypt.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LIBTOOL_FLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRINCIPAL_CLASS = "";
+				PRODUCT_NAME = gcrypt;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wall";
+				WRAPPER_EXTENSION = framework;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		B61D2B3B0A59ED5F0008B6CC /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 13;
+				DYLIB_CURRENT_VERSION = 13.1;
+				FRAMEWORK_VERSION = 1.2.4;
+				GCC_C_LANGUAGE_STANDARD = gnu89;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					HAVE_CONFIG_H,
+					PIC,
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					"../trunk/libgpg-error",
+					../trunk/libgcrypt,
+					../trunk/libgcrypt/src,
+				);
+				INFOPLIST_FILE = "Info-gcrypt.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				OTHER_LIBTOOL_FLAGS = "";
+				OTHER_REZFLAGS = "";
+				PREBINDING = NO;
+				PRINCIPAL_CLASS = "";
+				PRODUCT_NAME = gcrypt;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = "-Wall";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Default;
+		};
+		B61D2B400A59ED600008B6CC /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_TESTABILITY = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Development;
+		};
+		B61D2B410A59ED600008B6CC /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEPLOYMENT_POSTPROCESSING = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Deployment;
+		};
+		B61D2B420A59ED600008B6CC /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B61D2B380A59ED5F0008B6CC /* Build configuration list for PBXNativeTarget "gcrypt Framework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61D2B390A59ED5F0008B6CC /* Development */,
+				B61D2B3A0A59ED5F0008B6CC /* Deployment */,
+				B61D2B3B0A59ED5F0008B6CC /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+		B61D2B3F0A59ED600008B6CC /* Build configuration list for PBXProject "libgcrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B61D2B400A59ED600008B6CC /* Development */,
+				B61D2B410A59ED600008B6CC /* Deployment */,
+				B61D2B420A59ED600008B6CC /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Deployment;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00000000000000001640F4D0 /* Project object */;
+}
