@@ -25,7 +25,7 @@
  *	 to avoid revealing of sensitive data due to paging etc.
  */
 
-#include <config.h>
+#include "config.h"
 #include <stdio.h>
 #include <stdlib.h>
 #include "mpi-internal.h"

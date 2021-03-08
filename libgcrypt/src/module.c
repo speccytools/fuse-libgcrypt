@@ -19,7 +19,7 @@
  */
 
 #include <assert.h>
-#include <config.h>
+#include "config.h"
 #include <errno.h>
 #include "g10lib.h"
 

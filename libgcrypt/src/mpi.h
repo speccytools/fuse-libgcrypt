@@ -27,7 +27,7 @@
 #ifndef G10_MPI_H
 #define G10_MPI_H
 
-#include <config.h>
+#include "config.h"
 #include <stdio.h>
 #include "types.h"
 #include "memory.h"

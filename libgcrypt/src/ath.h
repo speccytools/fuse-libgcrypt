@@ -29,7 +29,7 @@
 #endif
 #include <gpg-error.h>
 
-#include <config.h>
+#include "config.h"
 
 
 /* Define _ATH_EXT_SYM_PREFIX if you want to give all external symbols

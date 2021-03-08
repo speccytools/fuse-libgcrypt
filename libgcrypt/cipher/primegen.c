@@ -24,7 +24,7 @@
  * page 260.
  */
 
-#include <config.h>
+#include "config.h"
 
 #include <stdio.h>
 #include <stdlib.h>
