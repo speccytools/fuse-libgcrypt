@@ -456,9 +456,10 @@
 		B61D2B390A59ED5F0008B6CC /* Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
 				DYLIB_COMPATIBILITY_VERSION = 13;
 				DYLIB_CURRENT_VERSION = 13.1;
 				FRAMEWORK_VERSION = 1.2.4;
@@ -480,10 +481,13 @@
 				);
 				INFOPLIST_FILE = "Info-gcrypt.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
 				OTHER_LIBTOOL_FLAGS = "";
 				OTHER_REZFLAGS = "";
 				PREBINDING = NO;
 				PRINCIPAL_CLASS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = fusex.gcrypt;
 				PRODUCT_NAME = gcrypt;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = "-Wall";
@@ -495,9 +499,10 @@
 		B61D2B3A0A59ED5F0008B6CC /* Deployment */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = YES;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
 				DYLIB_COMPATIBILITY_VERSION = 13;
 				DYLIB_CURRENT_VERSION = 13.1;
 				FRAMEWORK_VERSION = 1.2.4;
@@ -518,10 +523,13 @@
 				);
 				INFOPLIST_FILE = "Info-gcrypt.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
 				OTHER_LIBTOOL_FLAGS = "";
 				OTHER_REZFLAGS = "";
 				PREBINDING = NO;
 				PRINCIPAL_CLASS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = fusex.gcrypt;
 				PRODUCT_NAME = gcrypt;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = "-Wall";
@@ -533,8 +541,9 @@
 		B61D2B3B0A59ED5F0008B6CC /* Default */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				COMBINE_HIDPI_IMAGES = YES;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = "";
 				DYLIB_COMPATIBILITY_VERSION = 13;
 				DYLIB_CURRENT_VERSION = 13.1;
 				FRAMEWORK_VERSION = 1.2.4;
@@ -554,10 +563,13 @@
 				);
 				INFOPLIST_FILE = "Info-gcrypt.plist";
 				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				OTHER_CODE_SIGN_FLAGS = "--deep";
 				OTHER_LIBTOOL_FLAGS = "";
 				OTHER_REZFLAGS = "";
 				PREBINDING = NO;
 				PRINCIPAL_CLASS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = fusex.gcrypt;
 				PRODUCT_NAME = gcrypt;
 				SECTORDER_FLAGS = "";
 				WARNING_CFLAGS = "-Wall";
